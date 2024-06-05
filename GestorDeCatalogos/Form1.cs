@@ -50,5 +50,11 @@ namespace GestorDeCatalogos
             DetallesArticulo detallesArticulo = new DetallesArticulo(seleccionado);
             detallesArticulo.ShowDialog();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            AltaArticulo alta = new AltaArticulo();
+            alta.ShowDialog();
+        }
     }
 }
