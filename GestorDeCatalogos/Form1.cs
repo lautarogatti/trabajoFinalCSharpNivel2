@@ -55,6 +55,7 @@ namespace GestorDeCatalogos
         {
             AltaArticulo alta = new AltaArticulo();
             alta.ShowDialog();
+            cargarGrilla();
         }
     }
 }

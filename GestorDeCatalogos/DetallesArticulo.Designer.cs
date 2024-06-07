@@ -70,9 +70,8 @@
             this.lblTextoNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoNombre.Location = new System.Drawing.Point(86, 307);
             this.lblTextoNombre.Name = "lblTextoNombre";
-            this.lblTextoNombre.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoNombre.Size = new System.Drawing.Size(0, 16);
             this.lblTextoNombre.TabIndex = 2;
-            this.lblTextoNombre.Text = "label1";
             // 
             // lblCodigo
             // 
@@ -90,9 +89,8 @@
             this.lblTextoCod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoCod.Location = new System.Drawing.Point(86, 283);
             this.lblTextoCod.Name = "lblTextoCod";
-            this.lblTextoCod.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoCod.Size = new System.Drawing.Size(0, 16);
             this.lblTextoCod.TabIndex = 4;
-            this.lblTextoCod.Text = "label1";
             // 
             // lblDescripcion
             // 
@@ -110,9 +108,8 @@
             this.lblTextoDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoDesc.Location = new System.Drawing.Point(111, 333);
             this.lblTextoDesc.Name = "lblTextoDesc";
-            this.lblTextoDesc.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoDesc.Size = new System.Drawing.Size(0, 16);
             this.lblTextoDesc.TabIndex = 6;
-            this.lblTextoDesc.Text = "label1";
             // 
             // lblMarca
             // 
@@ -130,9 +127,8 @@
             this.lblTextoMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoMarca.Location = new System.Drawing.Point(77, 358);
             this.lblTextoMarca.Name = "lblTextoMarca";
-            this.lblTextoMarca.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoMarca.Size = new System.Drawing.Size(0, 16);
             this.lblTextoMarca.TabIndex = 8;
-            this.lblTextoMarca.Text = "label1";
             // 
             // lblCategoria
             // 
@@ -160,9 +156,8 @@
             this.lblTextoCateg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoCateg.Location = new System.Drawing.Point(98, 383);
             this.lblTextoCateg.Name = "lblTextoCateg";
-            this.lblTextoCateg.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoCateg.Size = new System.Drawing.Size(0, 16);
             this.lblTextoCateg.TabIndex = 11;
-            this.lblTextoCateg.Text = "label2";
             // 
             // lblTextoPrecio
             // 
@@ -170,9 +165,8 @@
             this.lblTextoPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoPrecio.Location = new System.Drawing.Point(80, 408);
             this.lblTextoPrecio.Name = "lblTextoPrecio";
-            this.lblTextoPrecio.Size = new System.Drawing.Size(44, 16);
+            this.lblTextoPrecio.Size = new System.Drawing.Size(0, 16);
             this.lblTextoPrecio.TabIndex = 12;
-            this.lblTextoPrecio.Text = "label1";
             // 
             // DetallesArticulo
             // 

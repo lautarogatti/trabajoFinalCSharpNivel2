@@ -34,7 +34,7 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.txbNombre = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbDescripcion = new System.Windows.Forms.TextBox();
             this.lblMarca = new System.Windows.Forms.Label();
             this.cbxMarca = new System.Windows.Forms.ComboBox();
             this.lblCategoria = new System.Windows.Forms.Label();
@@ -106,13 +106,13 @@
             this.lblDescripcion.TabIndex = 5;
             this.lblDescripcion.Text = "Descripción:";
             // 
-            // textBox1
+            // txbDescripcion
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(137, 179);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 26);
-            this.textBox1.TabIndex = 6;
+            this.txbDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbDescripcion.Location = new System.Drawing.Point(137, 179);
+            this.txbDescripcion.Name = "txbDescripcion";
+            this.txbDescripcion.Size = new System.Drawing.Size(227, 26);
+            this.txbDescripcion.TabIndex = 6;
             // 
             // lblMarca
             // 
@@ -171,6 +171,7 @@
             this.txbUrlImagen.Name = "txbUrlImagen";
             this.txbUrlImagen.Size = new System.Drawing.Size(227, 26);
             this.txbUrlImagen.TabIndex = 12;
+            this.txbUrlImagen.TextChanged += new System.EventHandler(this.txbUrlImagen_TextChanged);
             // 
             // lblPrecio
             // 
@@ -196,6 +197,7 @@
             this.pbxImagen.Location = new System.Drawing.Point(398, 34);
             this.pbxImagen.Name = "pbxImagen";
             this.pbxImagen.Size = new System.Drawing.Size(273, 330);
+            this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImagen.TabIndex = 15;
             this.pbxImagen.TabStop = false;
             // 
@@ -217,6 +219,7 @@
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAdjuntarImg
             // 
@@ -245,7 +248,7 @@
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.cbxMarca);
             this.Controls.Add(this.lblMarca);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.lblNombre);
@@ -255,6 +258,7 @@
             this.Name = "AltaArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Articulo";
+            this.Load += new System.EventHandler(this.AltaArticulo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -269,7 +273,7 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txbNombre;
         private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbDescripcion;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.ComboBox cbxMarca;
         private System.Windows.Forms.Label lblCategoria;
